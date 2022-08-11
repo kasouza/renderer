@@ -2,7 +2,7 @@
 file(COPY ${PROJECT_SOURCE_DIR}/assets DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
 set(SOURCES
-	main.c
+	main.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
